@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="595dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+
+        android:text="Witaj Przywoływaczu!\n
+        \n
+Przed Tobą 25 zadań. Aby je poprawnie wykonać trzymaj sie poniższych reguł. \n
+\n
+1. Wielkość liter ma znaczenie. \n
+2. Zadania wykonuj po kolei. \n
+3. W razie problemów posiadasz Supporta w postaci swojej kobiety. \n
+4. Zawartość skrzyni możesz otwierać dopiero po otrzymaniu odpowiedniej wskazówki. \n
+5. Prezenty otwieraj ZAWSZE bezpośrednio po wykonaniu zadania. \n
+6. Powodzenia :D "
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="276dp"
+        android:layout_height="76dp"
+        android:layout_below="@id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:text="Zaczynajmy!" />
+
+</RelativeLayout>
